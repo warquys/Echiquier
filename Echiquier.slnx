@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Echiquier.CLI/Echiquier.CLI.csproj" />
+  <Project Path="Echiquier/Echiquier.csproj" Id="d3ecb6fd-a2c7-4a31-9d36-967ebc5c6166" />
+</Solution>
