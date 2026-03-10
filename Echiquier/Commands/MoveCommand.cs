@@ -9,13 +9,8 @@ public class MoveCommand : Command
 
     public Piece? MovedPiece { get; private set; }
 
-    public override bool Handle(string input)
-    {
-        if (!MovePattern.IsMatch(input))
-            return false;
-
-        return true;
-    }
+    public override bool Handle(string input) 
+        => MovePattern.IsMatch(input);
 
     public override CommandResult Execute(Game game, string input)
     {
